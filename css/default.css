@@ -2,10 +2,7 @@
   outline: none !important;
   border: none;
   box-shadow: none;
-  background-image: -webkit-linear-gradient(to right, #a517ba, #5f1782) !important;
-  background-image: -moz-linear-gradient(to right, #a517ba, #5f1782) !important;
-  background-image: -o-linear-gradient(to right, #a517ba, #5f1782) !important;
-  background-image: linear-gradient(to right, #a517ba, #5f1782) !important;
+  background: #a517ba;
   color: #fff;
 }
 
