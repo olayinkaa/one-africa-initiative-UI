@@ -1,8 +1,10 @@
-.btn-purple {
+.btn-primary {
   outline: none !important;
   border: none;
   box-shadow: none;
-  background-color: none !important;
+  background-image: -webkit-linear-gradient(to right, #a517ba, #5f1782) !important;
+  background-image: -moz-linear-gradient(to right, #a517ba, #5f1782) !important;
+  background-image: -o-linear-gradient(to right, #a517ba, #5f1782) !important;
   background-image: linear-gradient(to right, #a517ba, #5f1782) !important;
   color: #fff;
 }

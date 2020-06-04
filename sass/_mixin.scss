@@ -1,0 +1,6 @@
+@mixin button-gradient($color,$color2) {
+    background-image: -webkit-linear-gradient(to right,$color,$color2) !important;
+    background-image: -moz-linear-gradient(to right,$color,$color2) !important;
+    background-image: -o-linear-gradient(to right,$color,$color2) !important;
+    background-image: linear-gradient(to right,$color,$color2) !important;
+}
