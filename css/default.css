@@ -1,9 +1,10 @@
-.btn-purple {
+.btn.btn-purple {
   outline: none !important;
   border: none;
   box-shadow: none;
   background-color: none !important;
   background-image: linear-gradient(to right, #a517ba, #5f1782) !important;
+  color: #fff;
 }
 
 h1.title {

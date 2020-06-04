@@ -1,13 +1,13 @@
 
 @import 'config';
 
-.btn-purple{
+.btn.btn-purple{
     outline: none !important;
     border:none;
     box-shadow: none;
     background-color: none !important;
     background-image: linear-gradient(to right,$purple,$purple2) !important;
-
+    color: #fff;
 }
 
 h1.title{
