@@ -1,0 +1,44 @@
+
+@import 'config';
+
+.btn-primary{
+    outline: none !important;
+    border:none;
+    box-shadow: none;
+    background-image: linear-gradient(to right,$purple,$purple2);
+
+}
+
+h1.title{
+    text-transform: uppercase;
+    &::before{
+        content: '';
+        background:$purple3;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    &::after{
+        content: '';
+        background:$purple3;
+        height: 10px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        display: block;
+        transform: translateY(8px);
+    }
+}
+
+hr{
+    background-color: #fff;
+}
+.copy-right{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
