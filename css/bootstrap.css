@@ -2503,8 +2503,11 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  outline: none !important;
+  border:none;
+  box-shadow: none;
+  background-color: none !important;
+  background-image: linear-gradient(to right,#a517ba,#5f1782) !important;
 }
 
 .btn-primary:hover {
